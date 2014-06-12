@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension version="2.5" type="plugin" group="system" method="upgrade">
+    <name>System - Fix Template Style</name>
+    <version>0.0.1</version>
+    <creationDate>June 2014</creationDate>
+    <copyright>(C) 2014 CMExtension Team</copyright>
+    <author>CMExtension Team</author>
+    <authorEmail>cmext.vn@gmail.com</authorEmail>
+    <authorUrl>www.cmext.vn</authorUrl>
+    <license>GNU General Public License version 2 or later</license>
+    <description>A plugin to fix template style issue caused by JomSocial without breaking JomSocial's code.</description>
+    <files>
+        <filename plugin="fixtemplatestyle">fixtemplatestyle.php</filename>
+        <filename>index.html</filename>
+    </files>
+</extension>
